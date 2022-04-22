@@ -6,7 +6,7 @@ from collections import namedtuple
 import os
 
 # Read a PDF File
-os.chdir('/Users/jsun/Desktop/Pdsc loading/')
+os.chdir('/Users/jsun/Desktop/xxxxx/')
 cwd = os.getcwd()
 #print(cwd)
 
@@ -25,7 +25,7 @@ line9_re = re.compile(r'\d (.*) \w+ \d.\d{2} (.*) (.*)') # and this too
 line10_re = re.compile(r'\w+ \d{6} \w+')
 line11_re = re.compile(r'\d{2}/\d{2}/\d{4} \d{8}-\d{2} \d')
 
-file = "GES1434864400.pdf" # This need to change based on unique pdf name
+file = "xxxxx.pdf" # This need to change based on unique pdf name
 
 # Looping
 lines = []
