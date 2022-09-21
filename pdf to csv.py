@@ -12,7 +12,7 @@ cwd = os.getcwd()
 
 Line = namedtuple('Line', 'Product')
 
-# Find a pattern
+# Find an unique pattern
 line_re = re.compile(r'\d+ \w+\d+\w+\d+ \w+') # this might need to manually put in pattern
 line2_re = re.compile(r'\d+ \w+\d+\w+ \w+') # this might need to manually put in pattern
 line3_re = re.compile(r'\d+ \w{7} \w{3}') # this might need to manually put in pattern
